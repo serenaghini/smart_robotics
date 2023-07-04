@@ -1,0 +1,159 @@
+material Burger
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture burger.jpg
+      }
+    }
+  }
+}
+
+material Butterfly
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture butterfly.jpg
+      }
+    }
+  }
+}
+
+material Car
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture car.jpg
+      }
+    }
+  }
+}
+
+material Cat
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture cat.jpg
+      }
+    }
+  }
+}
+
+material Coke
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture coke.jpg
+      }
+    }
+  }
+}
+
+material Lion
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture lion.jpg
+      }
+    }
+  }
+}
+
+material Sunflower
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture sunflower.jpg
+      }
+    }
+  }
+}
+
+material TennisBall
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture tennis_ball.jpg
+      }
+    }
+  }
+}
+
+material Tree
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture tree.jpg
+      }
+    }
+  }
+}
+
+material Umbrella
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.000000
+
+      texture_unit
+      {
+        texture umbrella.jpg
+      }
+    }
+  }
+}
