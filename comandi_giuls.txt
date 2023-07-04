@@ -1,0 +1,33 @@
+Spiegazione per giuli:
+
+SETUP DA ESEGUIRE SOLO LA PRIMA VOLTA
+Vai nella tua cartella home, in alto a destra clicca sulle 3 righe e metti tick in "Mostra file nascosti"
+Apri il file .bashrc e in fondo inserisci
+source devel/setup.bash
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:<path della tua directory workspace>
+
+Entra nella tua directory workspace e mettici il file .py che ti ho mandato
+
+Apri terminale, posizionati dentro alla tua directory workspace ed esegui
+mkdir boxes
+mkdir media
+mkdir media/materials
+mkdir media/materials/scripts
+mkdir media/materials/textures
+
+Dentro alla directory boxes inserisci i 3 file .urdf
+Dentro alla directory scripts inserisci script.material
+Dentro alla directory textures inserisci le immagini
+
+FINE SETUP
+COSA FARE PER APRIRE IL WORLD SU GAZEBO
+Da un terminale esegui: roscore
+
+Da un altro terminale, posizionati nel tuo workspace ed esegui: 
+rosrun gazebo_ros gazebo
+(aprirà un gazebo vuoto)
+
+Da un altro terminale, posizionati nel tuo workspace ed esegui:
+python insert_box.py
+
+
